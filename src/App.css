@@ -1,0 +1,8 @@
+#drum-machine {
+  background: gray;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+}
