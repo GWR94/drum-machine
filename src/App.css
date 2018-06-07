@@ -1,8 +1,39 @@
 #drum-machine {
-  background: gray;
+  background: darkgray;
+  padding: 30px;
+  border: 4px solid orange;
+  border-radius: 20px;
+}
+
+#display {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid green;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 370px;
 }
 
 .drum-pad {
-  width: 100px;
-  height: 100px;
+  background: gray;
+  padding: 20px 30px;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 10px;
+  vertical-align: middle;
+  text-align: center;
+  box-shadow: 4px 4px rgb(43, 43, 43);
+  font-size: 26px;
+  font-family: 'Londrina Solid', cursive;
+}
+
+.flash {
+  background: orange;
+  box-shadow: 0 0 black;
+  transform: translate(2px, 4px);
+  
 }
